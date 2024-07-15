@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f0f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6c5b7b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#hero img {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+#about {
+    background-color: #c06c84;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#contact {
+    background-color: #355c7d;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#signup {
+    background-color: #f67280;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, button {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #6c5b7b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #355c7d;
+}
+
+footer {
+    background-color: #6c5b7b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
